@@ -5,7 +5,7 @@ This application provides APIs to perform basic CRUD operations (Create, Read, U
 
 The project demonstrates how to build a backend service using Spring Boot with JPA for database interaction and how to test APIs using Postman.
 
-Features
+# Features
 
 Add new student details
 
@@ -19,7 +19,7 @@ Delete a student record
 
 REST API architecture for easy integration with frontend applications
 
-Tech Stack
+# Tech Stack
 
 Backend: Spring Boot
 
@@ -33,7 +33,7 @@ API Testing: Postman
 
 Build Tool: Maven
 
-Project Structure
+# Project Structure
 src/main/java
  ├── controller        # Handles REST API requests
  ├── service           # Business logic layer
@@ -47,7 +47,8 @@ GET	/students/{id}	Fetch student by ID
 POST	/students	Add a new student
 PUT	/students/{id}	Update student details
 DELETE	/students/{id}	Delete a student
-How to Run the Project
+
+# How to Run the Project
 
 Clone the repository
 
@@ -69,7 +70,7 @@ API Testing
 
 All APIs can be tested using Postman by sending HTTP requests to the exposed endpoints.
 
-Example request:
+# Example request:
 
 POST /students
 
@@ -82,7 +83,7 @@ Request Body (JSON)
   "course": "Computer Science"
 }
 
-Future Improvements
+# Future Improvements
 
 Add frontend using React
 
